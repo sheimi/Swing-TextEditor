@@ -9,7 +9,6 @@ import me.sheimi.view.TextEdit;
 /**
  * to open a file
  * @author sheimi
- *
  */
 public class OpenFileAction extends EditorAction implements LangObserver {
 

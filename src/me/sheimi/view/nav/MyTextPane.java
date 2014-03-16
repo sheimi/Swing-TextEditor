@@ -9,7 +9,7 @@ import javax.swing.JTextPane;
 public class MyTextPane extends JTextPane implements Colleague, AdjustmentListener{
 
 	private int height;
-	private int width;
+	//private int width;  // TODO useful?
 	private Mediator m_mediator;
 	private JScrollBar m_jsb;
 	

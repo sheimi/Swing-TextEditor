@@ -1,6 +1,5 @@
 package me.sheimi.controller.actions;
 
-import java.awt.Font;
 import java.awt.event.ActionEvent;
 
 import javax.swing.Action;
@@ -14,7 +13,7 @@ import me.sheimi.view.TextEdit;
  * @author sheimi
  *
  */
-public class BoldAction extends EditorAction{
+public class BoldAction extends EditorAction {
 
 	Action a;
 	

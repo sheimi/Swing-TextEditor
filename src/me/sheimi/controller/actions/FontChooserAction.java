@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import javax.swing.text.StyledEditorKit.FontFamilyAction;
 
-import me.sheimi.controller.EditorActionManager;
 import me.sheimi.view.TextEdit;
 
 /**

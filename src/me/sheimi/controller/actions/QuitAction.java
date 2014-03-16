@@ -8,7 +8,6 @@ import me.sheimi.view.TextEdit;
 /**
  * quit from app
  * @author sheimi
- *
  */
 public class QuitAction extends EditorAction {
 	public QuitAction(TextEdit textEdit) {

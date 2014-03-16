@@ -2,8 +2,6 @@ package me.sheimi.controller.actions;
 
 import java.awt.event.ActionEvent;
 
-import javax.swing.JFileChooser;
-
 import me.sheimi.controller.EditorActionManager;
 import me.sheimi.view.LangObserver;
 import me.sheimi.view.TextEdit;

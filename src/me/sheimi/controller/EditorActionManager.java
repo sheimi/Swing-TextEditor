@@ -4,7 +4,6 @@ import java.awt.Font;
 import java.awt.GraphicsEnvironment;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 
 import javax.swing.Action;
@@ -146,7 +145,7 @@ public class EditorActionManager {
 		//===========init END==========
 		
 		//init undo manager
-		this.m_textEdit = textEdit;
+		EditorActionManager.m_textEdit = textEdit;
 		JTextPane textPane = textEdit.getTextPane();
 		Document doc = textPane.getDocument();
 		this.initDocumentListener(doc);
@@ -173,7 +172,7 @@ public class EditorActionManager {
 		if (m_actionManager == null) {
 			m_actionManager = new EditorActionManager(textEdit);
 		}
-		if (textEdit != m_actionManager.m_textEdit) {
+		if (textEdit != EditorActionManager.m_textEdit) {
 			throw new TextEditNotMatchException();
 		}
 		return m_actionManager;

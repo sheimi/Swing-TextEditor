@@ -11,7 +11,6 @@ import me.sheimi.view.TextEdit;
 /**
  * undo the action
  * @author sheimi
- *
  */
 public class UnDoAction extends EditorAction {
 

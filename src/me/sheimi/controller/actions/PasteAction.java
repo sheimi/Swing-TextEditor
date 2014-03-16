@@ -11,7 +11,6 @@ import me.sheimi.view.TextEdit;
 /**
  * paste 
  * @author sheimi
- *
  */
 public class PasteAction extends EditorAction {
 

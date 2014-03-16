@@ -522,6 +522,7 @@ public class TextEdit extends JFrame implements LangObserver {
 				FileInputStream fis = new FileInputStream(f);
 				ObjectInputStream ois = new ObjectInputStream(fis);
 				doc = ((StyledDocument) ois.readObject());
+				ois.close();
 				m_eam.initDocumentListener(doc);
 				doc.addDocumentListener(m_navPane);
 				m_textPane.setDocument(doc);
@@ -557,6 +558,7 @@ public class TextEdit extends JFrame implements LangObserver {
 							theFileToSave.getPath());
 					ObjectOutputStream oos = new ObjectOutputStream(fos);
 					oos.writeObject(doc);
+					oos.close();
 					this.m_eam.initDocumentListener(doc);
 					doc.addDocumentListener(m_navPane);
 				} catch (FileNotFoundException e) {

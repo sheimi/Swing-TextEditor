@@ -1,13 +1,11 @@
 package me.sheimi.view.support;
 
 import java.awt.Insets;
-import java.beans.PropertyChangeListener;
 import java.util.Hashtable;
 
 import javax.swing.Action;
 import javax.swing.Icon;
 import javax.swing.JButton;
-import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
 public class ActionToolBar extends JToolBar {

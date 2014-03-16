@@ -1,9 +1,6 @@
 package me.sheimi.controller.actions;
 
-import java.awt.Font;
 import java.awt.event.ActionEvent;
-
-import javax.swing.text.StyledEditorKit.FontFamilyAction;
 
 import me.sheimi.controller.EditorActionManager;
 import me.sheimi.view.TextEdit;
@@ -15,7 +12,6 @@ import me.sheimi.view.TextEdit;
  */
 public class GetHelp extends EditorAction {
 
-	
 	public GetHelp(TextEdit textEdit) {
 		super(EditorActionManager.GET_HELP, textEdit);
 	}

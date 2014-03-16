@@ -36,8 +36,8 @@ import javax.swing.JComboBox;
 /**
  * General purpose Action combo-box class.
  */
-public final class ActionComboBox extends JComboBox implements ItemListener {
-	private final Hashtable m_actions = new Hashtable();
+public final class ActionComboBox extends JComboBox<Object> implements ItemListener {
+	private final Hashtable<String, Action> m_actions = new Hashtable<String, Action>();
 
 	public ActionComboBox() {
 		super();

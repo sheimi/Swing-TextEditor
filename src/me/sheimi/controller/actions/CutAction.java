@@ -11,7 +11,6 @@ import me.sheimi.view.TextEdit;
 /**
  * the to cut the text
  * @author sheimi
- *
  */
 public class CutAction extends EditorAction {
 

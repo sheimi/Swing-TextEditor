@@ -1,6 +1,5 @@
 package me.sheimi.controller.actions;
 
-import java.awt.Font;
 import java.awt.event.ActionEvent;
 
 import javax.swing.Action;
