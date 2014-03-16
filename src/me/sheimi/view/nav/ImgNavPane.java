@@ -2,7 +2,6 @@ package me.sheimi.view.nav;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
-import java.awt.Rectangle;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
@@ -10,7 +9,6 @@ import java.awt.image.BufferedImage;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JScrollBar;
-import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -28,7 +26,7 @@ public class ImgNavPane extends JLabel implements DocumentListener,
 	public ImgNavPane(JTextPane jtp) {
 		this.addMouseListener(this);
 		this.m_jtp = jtp;
-		Document doc = jtp.getDocument();
+		//Document doc = jtp.getDocument(); // TODO not used
 		jtp.getDocument().addDocumentListener(this);
 		this.pageHeight = (int) (jtp.getHeight() * PER);
 		this.setBackground(Color.gray);

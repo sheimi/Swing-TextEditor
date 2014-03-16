@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.util.Locale;
 
 import me.sheimi.lang.LangManager;
-import me.sheimi.view.TextEdit;
 
 /**
  * change the language of the interface
@@ -22,8 +21,7 @@ public class ChangeLangAction extends EditorAction {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		lm.setLang(locale);
+		lm.setLang(this.locale);
 	}
 	
-
 }

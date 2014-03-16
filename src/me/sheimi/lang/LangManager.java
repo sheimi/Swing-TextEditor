@@ -11,12 +11,13 @@ import me.sheimi.view.LangObserver;
 
 public class LangManager implements LangSubject {
 
-	public final static String[] LOCALES = {"English", "Chinese"};
+	public final static String[] LOCALES = {"English", "Chinese" /*, "French"*/};
 	public final static Map<String, Locale> LOCALE_MAP = new HashMap<String, Locale>();
 	
 	static {
 		LOCALE_MAP.put(LOCALES[0], Locale.ENGLISH);
 		LOCALE_MAP.put(LOCALES[1], Locale.CHINESE);
+		//LOCALE_MAP.put(LOCALES[2], Locale.FRENCH);
 	};
 
 	// private variable
@@ -58,14 +59,14 @@ public class LangManager implements LangSubject {
 	 */
 	@Override
 	public String getText(String query) {
-		return resourceBundle.getString(query);
+		return this.resourceBundle.getString(query);
 	}
 
 	public void setLang(Locale lang) {
 		if (this.lang == lang)
 			return;
 		this.lang = lang;
-		resourceBundle = ResourceBundle.getBundle("me.sheimi.lang.edit", lang);
+		this.resourceBundle = ResourceBundle.getBundle("me.sheimi.lang.edit", lang);
 		//lang has changed
 		change();
 	}

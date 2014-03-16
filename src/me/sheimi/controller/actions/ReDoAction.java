@@ -11,7 +11,6 @@ import me.sheimi.view.TextEdit;
 /**
  * redo the action
  * @author sheimi
- *
  */
 public class ReDoAction extends EditorAction {
 

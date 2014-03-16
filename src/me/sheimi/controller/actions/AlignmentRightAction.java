@@ -11,7 +11,6 @@ import me.sheimi.view.TextEdit;
 /**
  * a method of alignment right
  * @author sheimi
- *
  */
 public class AlignmentRightAction extends EditorAction {
 

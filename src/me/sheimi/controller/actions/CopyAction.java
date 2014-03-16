@@ -11,7 +11,6 @@ import me.sheimi.view.TextEdit;
 /**
  * copy the text of Action
  * @author sheimi
- *
  */
 public class CopyAction extends EditorAction {
 

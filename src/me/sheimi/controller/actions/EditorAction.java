@@ -13,7 +13,6 @@ import me.sheimi.view.TextEdit;
 /**
  * an abstract class of all the action
  * @author sheimi
- *
  */
 public abstract class EditorAction extends AbstractAction implements LangObserver{
 

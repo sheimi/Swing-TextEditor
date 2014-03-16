@@ -8,7 +8,6 @@ import me.sheimi.view.TextEdit;
 /**
  * open the Color Chooser
  * @author sheimi
- *
  */
 public class ColorChooserAction extends EditorAction {
 

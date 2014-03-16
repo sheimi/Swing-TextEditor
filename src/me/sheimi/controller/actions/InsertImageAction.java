@@ -8,7 +8,6 @@ import me.sheimi.view.TextEdit;
 /**
  * to insert a image to the text
  * @author sheimi
- *
  */
 public class InsertImageAction extends EditorAction {
 

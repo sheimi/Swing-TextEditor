@@ -9,7 +9,6 @@ import me.sheimi.view.TextEdit;
 /**
  * to set up a new file
  * @author sheimi
- *
  */
 public class NewFileAction extends EditorAction implements LangObserver {
 
